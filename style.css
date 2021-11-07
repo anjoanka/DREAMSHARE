@@ -1,0 +1,719 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url("Montserrat\,Roboto/Montserrat-Bold.ttf");
+}
+@font-face{
+    font-family: Roboto;
+    src: url("Montserrat\,Roboto/Roboto/Roboto-Light.ttf")
+}
+@font-face{
+    font-family: Montserrat-400;
+    src: url("Montserrat\,Roboto/Montserrat-Regular.ttf");
+}
+
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.hero{
+    background-image: url("images/photo_2021-11-02_21-41-41.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.navbar{
+    display: flex; 
+}
+.log a{
+    margin-right: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat-400', sans-serif;
+}
+
+.log a:hover{
+    text-decoration: underline;
+    transition: .5s;
+}
+.sign a:hover{
+    background: #fff;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all .5s;
+    text-decoration: underline;
+}
+
+.sign a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: 'Montserrat-400', sans-serif;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 52px;
+    margin-top: 153px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}   
+
+.hero_text{
+    font-size: 24px;
+    color: #F7F3F2;
+    text-align: center;
+    margin-top: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero_btn{
+    background: #FF4E50;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 19px;
+    font-size: 14px;
+}
+
+.hero_btn:hover{
+    border-bottom: 3px solid #FF4E50;
+    border-right: 3px solid #FF4E50;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: #fff;
+    transition: all .5s;
+    color: #FF4E50 ;
+}
+
+
+.btn{
+    text-align: center;
+    margin-top: 45px;
+    padding-bottom: 235px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card1{
+    background-image: url("images/photo_2021-11-02_21-41-40.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    padding-top: 235px;
+    padding-left: 35px;
+    padding-right: 25px;
+    padding-bottom: 21px;
+}
+.card2{
+    background-image: url("images/photo_2021-11-02_21-41-41\ \(2\).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    padding-top: 235px;
+    padding-left: 35px;
+    padding-right: 25px;
+    padding-bottom: 21px;
+}
+.card3{
+    background-image: url("images/photo_2021-11-02_21-41-40.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    padding-top: 235px;
+    padding-left: 35px;
+    padding-right: 25px;
+    padding-bottom: 21px;
+}
+
+.works_text{
+    padding-top: 89px;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.step{
+    padding: 5px 8px;
+    font-size: 10px;
+    color: #fff;
+    background: #FF4E50;
+    border-radius: 40px;
+    text-align: center;
+    width: 70px;
+    font-family: 'Montserrat-400', sans-serif;
+}
+
+.card_text1{
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card_text2{
+    font-size: 14px;
+    color: #E3E3E3;
+    display: flex;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    margin-right: 70px;
+    margin-top: 63px;
+    border-radius: 4px;
+}
+
+.card:nth-child(3n){
+    margin-right: 0;
+}
+
+.works_cards{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.partners_content{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.partner{
+    width: 17%;
+}
+
+.partner_img img{
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+
+.partner_name{
+    color: #444444;
+    font-size: 14px;
+    padding-top: 17px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.partner_text{
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 12px;
+    margin-bottom: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.partners_text{
+    color: #444444;
+    font-size: 26px;
+    padding: 89px 0 35px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.partners_btn a{
+    padding: 12px 36px;
+    border: 2px solid #FF4E50;
+    width: 180px;
+    border-radius: 40px;
+    margin-top: 36px;
+    white-space: nowrap;
+}
+.partners_btn{
+    text-align: center;
+}
+.partners_btn a:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: #FF4E50;
+    border: none;
+    color: #fff;
+    transition: all .5s;
+}
+
+
+.partners_btn a{
+    text-decoration: none;
+    color: #FF4E50;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.holiday_text{
+    color: #444444;
+    font-size: 26px;
+    padding: 89px 0 35px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.holiday{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+.card1_holiday{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/photo_2021-11-02_21-44-05.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 146px 46px; 
+    width: 32%;   
+    margin-right: 10px;
+}
+
+.card2_holiday{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/photo_2021-11-02_21-44-04 (2).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 146px 46px; 
+    width: 32%;   
+    margin-right: 10px;
+}
+
+.card3_holiday{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/photo_2021-11-02_21-44-04.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 146px 46px; 
+    width: 32%;   
+}
+
+.card4_holiday{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/photo_2021-11-02_21-44-03 (2).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 146px 46px; 
+    width: 32%; 
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.card5_holiday{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url("images/photo_2021-11-02_21-44-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 144px 180px;
+    width: 67%;
+    margin-top: 10px;
+}
+
+.card6_holiday{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url("images/photo_2021-11-02_21-44-05 (2).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 144px 180px;
+    width: 67%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.card7_holiday{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/photo_2021-11-02_21-44-06.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 146px 46px; 
+    width: 32%; 
+    margin-top: 10px;
+}
+
+
+
+.cards_holiday{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card_holiday{
+    border-radius: 4px;
+}
+.card_holiday_text{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form_text1{
+    color: #444444;
+    padding-top: 89px;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form_text2{
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+    padding-top: 63px;
+    padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.forms{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+input{
+    width: 299px;
+    padding: 14px;
+    color: #999999;
+    font-size: 14px;
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+}
+
+.input{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+
+.form_btn a{
+    padding: 12px 30px;
+    background: #FF4E50;
+    border-radius: 40px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form_btn a:hover{
+    border-bottom: 3px solid #FF4E50;
+    border-right: 3px solid #FF4E50;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: #fff;
+    transition: all .5s;
+    color: #FF4E50 ;
+}
+
+.line{
+    background: #FF4E50;
+    height: 2px;
+    width: 100vw;
+    color: #FF4E50;
+    margin-top: 100px;
+}
+
+.footer_content{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.foot_logo{
+    color: #FF4E50;
+    font-size: 16px;
+    font-family: 'Montserrat-400', sans-serif;
+}
+
+.footer_one{
+    display: flex;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+
+
+.company_ul{
+    margin-right: 80%;
+    margin-left: 70%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.company{
+    list-style: none;
+    color: #999999;
+    font-size: 14px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+
+.footer_text{
+    color: #444444;
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.end{
+    color: #CCCCCC;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@media (max-width: 768px){
+    .container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .card{
+        margin-right: 10px;
+        width: 33%;
+        padding-top: 205px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 21px;
+    }
+    
+    .holiday{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .partner{
+        width: 49%; 
+        margin-bottom: 54px;
+    }
+    .partner_img{
+        margin-left: 25%;
+    }
+    .partner_text{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .card1_holiday{
+        width: 32%;
+    }
+    .card2_holiday{
+        width: 32%;
+    }
+    .card3_holiday{
+        width: 32%;
+    }
+    .card4_holiday{
+        width: 32%;
+    }
+    
+    .card5_holiday{
+        width: 66%;
+    }
+    .card6_holiday{
+        width: 66%;
+    }
+
+
+    .footer_content{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .company_ul{
+        margin-right: 40%;
+        margin-left: 50%;
+    }
+    
+}
+
+@media (max-width:330px){
+    .container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .logo{
+        order: 2;
+        margin: 0 auto;
+        padding-top: 100px;
+
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .navbar{
+        margin: 0 auto;
+    }
+    h1{
+        margin: 0;
+        padding-top: 26px;
+        font-size: 30px;
+    }
+    .hero_text{
+        font-size: 18px;
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+    }
+    .hero_btn{
+        padding: 12px 46px;
+    }
+
+    .works_text{
+        padding-top: 34px;
+    }
+    .card{
+        margin-top: 15px;
+        width: 100%;
+        padding-top: 100px;
+    }
+    .works_cards{
+        flex-direction: column;
+    }
+    .partners_content{
+        flex-direction: column;
+    }
+    .partner{
+        width: 100%;
+    }
+    .partner_img{
+       margin-left: 65px;
+    }
+    .partners_btn{
+        margin-top: 15px;
+        padding: 12px px;
+        white-space: nowrap;
+    }
+    .holiday{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .cards_holiday{
+        flex-direction: column;
+    }
+    .card_holiday{
+        width: 100%;
+        padding: 47px 10px;
+        white-space: nowrap;
+        margin-top: 10px;
+       
+    }
+
+    .input{
+        flex-direction: column;
+    }
+    .form_text1{
+        padding-top: 35px;
+    }
+    .form_text2{
+        padding-top: 9px;
+        white-space: nowrap;
+        padding-bottom: 15px;
+    }
+    .foot_logo{
+        text-align: center;
+    }
+    .company_ul{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .hj{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto; 
+    }
+    .company{
+        padding-left: 30px;
+    }
+    .company:first-child{
+        padding-left: 0;
+    }
+    .footer_text{
+        text-align: center;
+        padding-top: 13px;
+    
+    }
+    .form_btn{
+        margin-top: 20px;
+    }
+    .footer_content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_one{
+        flex-direction: column;
+
+
+    }
+    .end{
+        text-align: center;
+        padding-bottom: 7px;
+    }
+
+
+    .footer_end{
+        align-items: center;
+        justify-content: center; 
+    }
+}
